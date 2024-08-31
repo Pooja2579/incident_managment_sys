@@ -1,0 +1,63 @@
+/* ListIncidents.css */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .incident-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .incident-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .incident-item.closed {
+    background-color: #f8d7da;
+  }
+  
+  .incident-item h3 {
+    margin: 0;
+  }
+  
+  .incident-details {
+    margin: 10px 0;
+  }
+  
+  .incident-details strong {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .edit-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .edit-link:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
